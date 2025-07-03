@@ -1,0 +1,8 @@
+{
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": true,
+    "explorer.fileNesting.patterns": {
+        "*.ps1": "${basename}.*.ps1",
+        ".env": "*.env, .env.*"
+    }
+}

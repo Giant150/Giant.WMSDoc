@@ -1,0 +1,1 @@
+Start-Deploy -ComputerName 10.76.99.18 -WebSiteName WMSDoc24CTSIL004 -WebSitePort 80 -ScriptBlock { npm run docs:build } -OutputPath .\docs\.vitepress\dist\ -RemotePath "D:\Publish\"
