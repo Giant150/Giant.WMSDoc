@@ -1,11 +1,14 @@
-# 此目录写操作说明文档
-按业务流程介绍操作
+# 打印操作设置
 
-# 打印操作设置 #
-## 驱动安装 ##
-安装驱动软件 
-##
-A.驱动下载:[BT2021_R9_186892_Full_x64.exe](./BT2021_R9_186892_Full_x64.exe "驱动文件")
+## 驱动安装
+
+1. 安装驱动软件 [ZT111 工业打印机支持](https://www.zebra.cn/cn/zh/support-downloads/printers/industrial/zt111.html)
+2. 标签打印软件 [BarTender](https://portal.seagullscientific.com/downloads/bartender)
+
+
+## 
+
+A.驱动下载: 
 B.下载后安装步骤如下：
 > 双击运行界面
 
@@ -16,8 +19,6 @@ B.下载后安装步骤如下：
 ![](./BartendInstallStep/step2.png)
 
 > 安装等待，如下图  
-
-
 
 ![](./BartendInstallStep/step3.png)
 
@@ -77,7 +78,8 @@ B.下载后安装步骤如下：
 
 >下载打印中间件
 
-双击下载：[ZEQP.BarTenderService.rar](./PrintTemp/ZEQP.BarTenderService.rar)  
+ZEQP.BarTenderService.rar
+
 下载完成后进行解压，找到Template文件夹，如下图：
 
 ![](./PrintTemp/step1.png)  
