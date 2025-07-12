@@ -50,8 +50,14 @@
 ```powershell
 Get-NetConnectionProfile
 Set-NetConnectionProfile -Name "{指定网络名称}" -NetworkCategory Private
+# Get-NetConnectionProfile | Set-NetConnectionProfile -NetworkCategory Private
 Enable-PSRemoting
 Set-Item WSMan:\localhost\Client\TrustedHosts -Value *
+# 增加https监听
+$MachineName=[System.Environment]::MachineName
+$Cer=Get-ChildItem -Path Cert:\LocalMachine\My\ | Where-Object {$_.Subject -like "CN=$MachineName*"}
+$Thumbprint=$Cer[0].Thumbprint
+New-Item WSMan:\localhost\Listener\ -Transport HTTPS -Address * -CertificateThumbPrint $Thumbprint
 ```
 
 ### 修改网络类型为“专用”

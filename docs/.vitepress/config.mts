@@ -49,6 +49,12 @@ export default defineConfig({
               { text: '配盘策略', link: '/feture/stg/plate' },
             ]
           },
+          {
+            text: '库存管理',
+            items: [
+              { text: '内部转移', link: '/feture/inv/transfer' },
+            ]
+          },
         ]
       },
       {
