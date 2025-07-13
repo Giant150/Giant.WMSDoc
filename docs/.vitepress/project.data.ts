@@ -14,7 +14,11 @@ export default {
             lipHost:'10.88.19.3',
             lipAPIPort: 8850,
             lipWebPort:8851,
-            lipDIPort: 8853
+            lipDIPort: 8853,
+            mcsHost:'10.88.19.2',
+            mcsAPIPort: 8350,
+            mcsWebPort:8351,
+            mcsDIPort: 8352
         }
     }
 }

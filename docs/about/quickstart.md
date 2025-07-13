@@ -28,3 +28,11 @@ const projectData = ref(data)
 |LIP Web|<a :href="'http://'+projectData.lipHost+':'+projectData.lipWebPort" target="_blank">http://{{projectData.lipHost}}:{{projectData.lipWebPort}}</a>|LIP电脑端|
 |LIP API|<a :href="'http://'+projectData.lipHost+':'+projectData.lipAPIPort+'/Swagger'" target="_blank">http://{{projectData.lipHost}}:{{projectData.lipAPIPort}}/Swagger</a>|LIP服务接口|
 |LIP DI|<a :href="'http://'+projectData.lipHost+':'+projectData.lipDIPort+'/Swagger'" target="_blank">http://{{projectData.lipHost}}:{{projectData.lipDIPort}}/Swagger</a>|LIP数据集成接口|
+
+## MCS系统访问
+
+|名称|地址|说明|
+|---|---|---|
+|MCS Web|<a :href="'http://'+projectData.mcsHost+':'+projectData.mcsWebPort" target="_blank">http://{{projectData.mcsHost}}:{{projectData.mcsWebPort}}</a>|MCS电脑端|
+|MCS API|<a :href="'http://'+projectData.mcsHost+':'+projectData.mcsAPIPort+'/Swagger'" target="_blank">http://{{projectData.mcsHost}}:{{projectData.mcsAPIPort}}/Swagger</a>|MCS服务接口|
+|MCS DI|<a :href="'http://'+projectData.mcsHost+':'+projectData.mcsDIPort+'/Swagger'" target="_blank">http://{{projectData.mcsHost}}:{{projectData.mcsDIPort}}/Swagger</a>|MCS数据集成接口|
