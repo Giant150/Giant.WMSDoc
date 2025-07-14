@@ -58,6 +58,7 @@ $MachineName=[System.Environment]::MachineName
 $Cer=Get-ChildItem -Path Cert:\LocalMachine\My\ | Where-Object {$_.Subject -like "CN=$MachineName*"}
 $Thumbprint=$Cer[0].Thumbprint
 New-Item WSMan:\localhost\Listener\ -Transport HTTPS -Address * -CertificateThumbPrint $Thumbprint
+New-NetFirewallRule -Name "WinRM HTTPS 5986" -DisplayName "WinRM HTTPS 5986" -Action Allow -Protocol TCP -LocalPort 5986 -Direction Inbound
 ```
 
 ### 修改网络类型为“专用”
