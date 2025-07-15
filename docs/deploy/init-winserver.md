@@ -77,6 +77,7 @@ $Cer=Get-ChildItem -Path Cert:\LocalMachine\My\ | Where-Object Subject -Like "CN
 $Thumbprint=$Cer[0].Thumbprint
 $Path=(Get-WmiObject -Class "Win32_TSGeneralSetting" -Namespace root\cimv2\terminalservices)
 Set-WmiInstance -Path $Path -Arguments @{SSLCertificateSHA1Hash=$Thumbprint}
+
 ```
 
 ![](./init-winserver/cer-7.png)
