@@ -69,3 +69,17 @@ Internet地址或网络地址：远程设备的IP 或者名称
 
 原理：此操作允许客户端回退到不安全的CredSSP协议版本，从而兼容未安装安全更新的远程服务器，但会降低安全性16。
 ![alt text](image-3.png)
+
+
+## IIS 不能在此路径中使用此配置节。如果在父级别上锁定了该节，便会出现这种情况
+
+![alt text](image-6.png)
+
+解决方案为
+
+```cmd
+cd C:\Windows\System32\inetsrv\
+.\appcmd.exe unlock config -section:system.WebServer/modules
+```
+
+![alt text](image-7.png)
