@@ -83,3 +83,19 @@ cd C:\Windows\System32\inetsrv\
 ```
 
 ![alt text](image-7.png)
+
+## IIS出现警告：Using an in-memory repository. Keys will not be persisted to storage.
+
+1. Using an in-memory repository. Keys will not be persisted to storage.
+2. Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+3. No XML encryptor configured. Key {29801f69-d4f0-4883-ac35-9f5752f9e015} may be persisted to storage in unencrypted form.
+
+![alt text](image-8.png)
+
+解决方案为：
+
+把对应IIS的程序池->高级设置->加载用户配置文件
+
+把此配置修改为True
+
+![alt text](image-9.png)
