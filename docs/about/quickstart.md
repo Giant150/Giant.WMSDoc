@@ -12,7 +12,16 @@ const projectData = ref(data)
 
 ## WMS系统访问
 
-|名称|地址|说明|
+|名称|正式环境|演示环境|测试环境|说明|
+|---|---|---|---|---|
+|WMS电脑端|<a :href="projectData.wms.production.web" target="_blank">Production</a>|<a :href="projectData.wms.staging.web" target="_blank">Staging</a>|<a :href="projectData.wms.test.web" target="_blank">Test</a>|WMS系统电脑端|
+|WMS移动端|<a :href="projectData.wms.production.rf" target="_blank">Production</a>|<a :href="projectData.wms.staging.rf" target="_blank">Staging</a>|<a :href="projectData.wms.test.rf" target="_blank">Test</a>|WMS系统移动端|
+|WMS看板|<a :href="projectData.wms.production.kanban" target="_blank">Production</a>|<a :href="projectData.wms.staging.kanban" target="_blank">Staging</a>|<a :href="projectData.wms.test.kanban" target="_blank">Test</a>|WMS系统看板|
+|WDI数据集成|<a :href="projectData.wms.production.di" target="_blank">Production</a>|<a :href="projectData.wms.staging.di" target="_blank">Staging</a>|<a :href="projectData.wms.test.di" target="_blank">Test</a>|WMS系统数据集成平台|
+|WMS API|<a :href="projectData.wms.production.api" target="_blank">Production</a>|<a :href="projectData.wms.staging.api" target="_blank">Staging</a>|<a :href="projectData.wms.test.api" target="_blank">Test</a>|WMS系统服务接口|
+
+
+|名称|正式环境|说明|
 |---|---|---|
 |WMS电脑端|<a :href="'https://'+projectData.webHost+':'+projectData.wmsWebPort" target="_blank">https://{{projectData.webHost}}:{{projectData.wmsWebPort}}</a>|WMS系统电脑端|
 |WMS移动端|<a :href="'https://'+projectData.webHost+':'+projectData.wmsRFPort" target="_blank">https://{{projectData.webHost}}:{{projectData.wmsRFPort}}</a>|WMS系统移动端|
