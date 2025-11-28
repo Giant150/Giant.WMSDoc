@@ -65,6 +65,7 @@ export default defineConfig({
             items: [
               { text: '收货', link: '/operate/recevingGoods/index' },
               { text: '发货', link: '/operate/sendGoods/index' },
+              { text: '拣货至待发区', link: '/operate/PickedToWS/index' },
               { text: '补货', link: '/operate/replenish/index' },
               { text: '波次', link: '/operate/wellen/index' },
               { text: '波次配盘', link: '/operate/wavePlate/index' },
