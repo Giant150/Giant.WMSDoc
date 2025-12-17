@@ -64,6 +64,7 @@ export default defineConfig({
             text: '操作介绍',
             items: [
               { text: '收货', link: '/operate/recevingGoods/index' },
+              { text: '采购收货', link: '/operate/AsnQcRecipt/index' },
               { text: '发货', link: '/operate/sendGoods/index' },
               { text: '拣货至待发区', link: '/operate/PickedToWS/index' },
               { text: '补货', link: '/operate/replenish/index' },
