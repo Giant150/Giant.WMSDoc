@@ -71,6 +71,7 @@ export default defineConfig({
               { text: '波次', link: '/operate/wellen/index' },
               { text: '波次配盘', link: '/operate/wavePlate/index' },
               { text: '空托操作', link: '/operate/nulltray/index' },
+              { text: '盘点', link: '/operate/check/index' },
             ]
           },
           { text: '常见问题', link: '/operate/QA/index' },
