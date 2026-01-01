@@ -42,15 +42,15 @@
 
 在PDA的“功能”->"盘点"中，我们可以看到状态为“盘点中”的盘点订单
 
-![alt text](image-2.png)
+![alt text](image-2.png){width=350}
 
 点击或左滑进入盘点明细，可以看到需要盘点的库存
 
-![alt text](image-3.png)
+![alt text](image-3.png){width=350}
 
 仓库人员可以在搜索框中根据物料/托盘/库位搜索需要盘点的库存
 
-![alt text](image-4.png)
+![alt text](image-4.png){width=350}
 
 找到对应需要盘点的数据，点击或左滑进入盘点确认界面
 
@@ -60,11 +60,11 @@
 
 然后点“确认”按钮确认此项库存盘点数据
 
-![alt text](image-5.png)
+![alt text](image-5.png){width=350}
 
 确认后，可以看到当条数据状态已经变成“已盘点”
 
-![alt text](image-6.png)
+![alt text](image-6.png){width=350}
 
 ## 纸单盘点（方式二）
 
