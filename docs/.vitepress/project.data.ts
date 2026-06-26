@@ -1,8 +1,8 @@
 export default {
     load() {
         return {
-            projectNo: '24CTSIL004',
-            projectName: '太重叉车仓储系统项目',
+            projectNo: 'ZEQPWMS',
+            projectName: '中南智能仓储系统项目',
             webHost: '10.88.19.3',
             webHostName: 'CTR-SERVER193',
             wmsDocPort: 8443,
