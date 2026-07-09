@@ -39,9 +39,11 @@ export default defineConfig({
                             { text: '往来单位', link: '/feture/bas/storer' },
                             { text: '区域管理', link: '/feture/bas/area' },
                             { text: '上架区域', link: '/feture/bas/putawayZone' },
-                            { text: '库位信息', link: '/feture/bas/loc' },
+                            { text: '库位管理', link: '/feture/bas/loc' },
                             { text: '物料类型', link: '/feture/bas/skuType' },
-                            { text: '物料信息', link: '/feture/bas/sku' },
+                            { text: '物料管理', link: '/feture/bas/sku' },
+                            { text: '托盘类型', link: '/feture/bas/trayType' },
+                            { text: '托盘管理', link: '/feture/bas/tray' },
                             { text: '拣货区域', link: '/feture/bas/pickZone' },
                         ]
                     },
@@ -55,9 +57,51 @@ export default defineConfig({
                         ]
                     },
                     {
+                        text: '仓库业务',
+                        items: [
+                            { text: '到货管理', link: '/feture/bus/asn' },
+                            { text: '检验管理', link: '/feture/bus/quality' },
+                            { text: '收货管理', link: '/feture/bus/receipt' },
+                            { text: '收货明细', link: '/feture/bus/receiptDetail' },
+                            { text: '发货管理', link: '/feture/bus/order' },
+                            { text: '发货明细', link: '/feture/bus/orderDetail' },
+                            { text: '配盘工单', link: '/feture/bus/orderByPlate' },
+                            { text: 'SPS工单', link: '/feture/bus/orderBySPS' },
+                            { text: '波次管理', link: '/feture/bus/wave' },
+                        ]
+                    },
+                    {
                         text: '库存管理',
                         items: [
+                            { text: '库存查询', link: '/feture/inv/inventory' },
+                            { text: '批次信息', link: '/feture/inv/lot' },
+                            { text: '库存台账', link: '/feture/inv/ledger' },
+                            { text: '库存调整', link: '/feture/inv/adjust' },
+                            { text: '库存盘点', link: '/feture/inv/check' },
                             { text: '内部转移', link: '/feture/inv/transfer' },
+                            { text: '条码管理', link: '/feture/inv/serial' },
+                            { text: '补货管理', link: '/feture/inv/replenal' },
+                            { text: '移库管理', link: '/feture/inv/move' },
+                            { text: '质检结果', link: '/feture/inv/quality' },
+                        ]
+                    },
+                    {
+                        text: '任务设置',
+                        items: [
+                            { text: '任务管理', link: '/feture/task/mgt' },
+                            { text: '历史任务', link: '/feture/task/his' },
+                            { text: '发送报文', link: '/feture/cf/outBox' },
+                            { text: '接收报文', link: '/feture/cf/inBox' },
+                            { text: '接收报文历史', link: '/feture/cf/inboxHistory' },
+                            { text: '发送报文历史', link: '/feture/cf/outboxHistory' },
+                        ]
+                    },
+                    {
+                        text: '报表中心',
+                        items: [
+                            { text: '物料汇总', link: '/feture/rpt/invSku' },
+                            { text: '物料库存汇总', link: '/feture/rpt/invSkuLoc' },
+                            { text: '批次属性汇总', link: '/feture/rpt/invLot' },
                         ]
                     },
                 ]
