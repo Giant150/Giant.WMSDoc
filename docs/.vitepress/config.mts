@@ -102,6 +102,31 @@ export default defineConfig({
                             { text: '物料汇总', link: '/feture/rpt/invSku' },
                             { text: '物料库存汇总', link: '/feture/rpt/invSkuLoc' },
                             { text: '批次属性汇总', link: '/feture/rpt/invLot' },
+                            { text: '台账汇总', link: '/feture/rpt/invIn' },
+                            { text: '库位监控', link: '/feture/rpt/locRender2D' },
+                            { text: '安全库存', link: '/feture/rpt/safetyInv' },
+                            { text: 'AGV任务分析', link: '/feture/rpt/taskAnalyse' },
+                            { text: 'AGV任务统计', link: '/feture/rpt/taskSummary' },
+                            { text: '出入库汇总', link: '/feture/rpt/invInOut' },
+                            { text: '期初期末统计', link: '/feture/rpt/oci' },
+                            { text: '保养记录报表', link: '/feture/rpt/maintain' },
+                            { text: '呆滞记录报表', link: '/feture/rpt/stagnation' },
+                            { text: '空托盘统计报表', link: '/feture/rpt/emptyTray' },
+                            { text: '指标汇总', link: '/feture/rpt/indicatorSum' },
+                            { text: '物料基础数据', link: '/feture/rpt/sku' },
+                        ]
+                    },
+                    {
+                        text: '任务设置',
+                        items: [
+                            { text: '组织架构', link: '/feture/sys/org' },
+                            { text: '用户组织', link: '/feture/sys/user' },
+                            { text: '角色管理', link: '/feture/sys/role' },
+                            { text: '菜单管理', link: '/feture/sys/menu' },
+                            { text: '字典管理', link: '/feture/sys/enum' },
+                            { text: '系统参数', link: '/feture/sys/config' },
+                            { text: '编码规则', link: '/feture/sys/codeType' },
+                            { text: '系统日志', link: '/feture/sys/log' }
                         ]
                     },
                 ]
