@@ -20,6 +20,7 @@ export default defineConfig({
         sidebar: [
             {
                 text: '简介',
+                collapsed: true,
                 items: [
                     { text: 'ZEQPWMS', link: '/about' },
                     { text: '快速开始', link: '/about/quickstart' },
@@ -30,10 +31,12 @@ export default defineConfig({
             },
             {
                 text: '功能',
+                collapsed: true,
                 items: [
                     { text: '功能介绍', link: '/feture' },
                     {
                         text: '基础信息',
+                        collapsed: true,
                         items: [
                             { text: '仓库管理', link: '/feture/bas/whse' },
                             { text: '往来单位', link: '/feture/bas/storer' },
@@ -49,6 +52,7 @@ export default defineConfig({
                     },
                     {
                         text: '策略设置',
+                        collapsed: true,
                         items: [
                             { text: '批次策略', link: '/feture/stg/lot' },
                             { text: '上架策略', link: '/feture/stg/putaway' },
@@ -58,6 +62,7 @@ export default defineConfig({
                     },
                     {
                         text: '仓库业务',
+                        collapsed: true,
                         items: [
                             { text: '到货管理', link: '/feture/bus/asn' },
                             { text: '检验管理', link: '/feture/bus/quality' },
@@ -72,6 +77,7 @@ export default defineConfig({
                     },
                     {
                         text: '库存管理',
+                        collapsed: true,
                         items: [
                             { text: '库存查询', link: '/feture/inv/inventory' },
                             { text: '批次信息', link: '/feture/inv/lot' },
@@ -87,6 +93,7 @@ export default defineConfig({
                     },
                     {
                         text: '任务设置',
+                        collapsed: true,
                         items: [
                             { text: '任务管理', link: '/feture/task/mgt' },
                             { text: '历史任务', link: '/feture/task/his' },
@@ -98,6 +105,7 @@ export default defineConfig({
                     },
                     {
                         text: '报表中心',
+                        collapsed: true,
                         items: [
                             { text: '物料汇总', link: '/feture/rpt/invSku' },
                             { text: '物料库存汇总', link: '/feture/rpt/invSkuLoc' },
@@ -118,6 +126,7 @@ export default defineConfig({
                     },
                     {
                         text: '任务设置',
+                        collapsed: true,
                         items: [
                             { text: '组织架构', link: '/feture/sys/org' },
                             { text: '用户组织', link: '/feture/sys/user' },
@@ -133,9 +142,11 @@ export default defineConfig({
             },
             {
                 text: '操作',
+                collapsed: true,
                 items: [
                     {
                         text: '操作介绍',
+                        collapsed: true,
                         items: [
                             { text: '收货', link: '/operate/recevingGoods/index' },
                             { text: '采购收货', link: '/operate/AsnQcRecipt/index' },
@@ -153,6 +164,7 @@ export default defineConfig({
             },
             {
                 text: '部署',
+                collapsed: true,
                 items: [
                     { text: '系统部署', link: '/deploy' },
                     { text: 'WindowsServer配置', link: '/deploy/init-winserver' },
@@ -169,6 +181,7 @@ export default defineConfig({
             },
             {
                 text: '开发',
+                collapsed: true,
                 items: [
                     { text: '系统开发', link: '/develop' },
                     { text: '常见问题', link: '/develop/QA/' },
@@ -178,6 +191,7 @@ export default defineConfig({
             },
             {
                 text: '接口',
+                collapsed: true,
                 items: [
                     { text: '标准接口', link: '/api' }
                 ]
