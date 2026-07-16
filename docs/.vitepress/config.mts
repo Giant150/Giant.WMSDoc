@@ -177,7 +177,8 @@ export default defineConfig({
                     { text: '根证书安装', link: '/deploy/installCert' },
                     { text: 'PDA初始化', link: '/deploy/init-PDA' },
                     { text: 'WMS系统打印', link: '/operate/Print/index' },
-                    { text: '系统健康检查', link: '/deploy/HealthCheck/index' }
+                    { text: '系统健康检查', link: '/deploy/HealthCheck/index' },
+                    { text: '统信UOSV20适配测试报告', link: '/deploy/deployTxUos/index' }
                 ]
             },
             {
