@@ -14,7 +14,6 @@ ZEQP WMS是由中南智能研发的新一代仓库管理系统。支持多仓库
 | --------------------      | ---------------------------   | --------------------- |
 | Windows Server            | 2025, 23H2, 2022, 2019, 2016, 2012-R2, 2012 | x64, x86 |
 | Windows Server Core       | 2025, 2022, 2019, 2016, 2012-R2, 2012 | x64, x86    |
-| Nano Server               | 2025, 2022, 2019              | x64                   |
 | Windows                   | 10+ | Arm64, x64, x86 |
 
 #### Linux
@@ -37,6 +36,7 @@ ZEQP WMS是由中南智能研发的新一代仓库管理系统。支持多仓库
 |---|---|---|---|
 |银河麒麟|V10+|飞腾、龙芯、鲲鹏、申威、兆芯、海光、Intel、AMD|[https://www.kylinos.cn/](https://www.kylinos.cn/)|
 |统信|V20+|AMD64/ARM64/MIPS64/SW64/LoongArch|[https://www.uniontech.com/](https://www.uniontech.com/)|
+|中科方德|V4+|申威、飞腾、鲲鹏、龙芯、兆芯、AMD、海光|[https://www.nfschina.com/](https://www.nfschina.com/)|
 
 
 ### 数据库
