@@ -20,15 +20,16 @@ ZEQP WMS是由中南智能研发的新一代仓库管理系统。支持多仓库
 
 | 名称                            | 版本                    | 架构         |
 | ----------------------------- | --------------------------- | --------------------- |
-| Alpine               | 3.21, 3.20, 3.19            | Arm32, Arm64, x64     |
-| Azure Linux              | 3.0                         | Arm64, x64            |
-| CentOS Stream            | 10, 9                       | Arm64, ppc64le, s390x, x64 |
+| Ubuntu                 | 25.04, 24.10, 24.04, 22.04  | Arm32, Arm64, x64     |
 | Debian                 | 12                          | Arm32, Arm64, x64     |
 | Fedora                 | 42, 41, 40                  | Arm32, Arm64, x64     |
-| openSUSE Leap          | 15.6                        | Arm64, x64            |
+| CentOS Stream            | 10, 9                       | Arm64, ppc64le, s390x, x64 |
 | Red Hat Enterprise Linux | 10, 9, 8                   | Arm64, ppc64le, s390x, x64 |
+| Alpine               | 3.21, 3.20, 3.19            | Arm32, Arm64, x64     |
+| Azure Linux              | 3.0                         | Arm64, x64            |
+| openSUSE Leap          | 15.6                        | Arm64, x64            |
 | SUSE Enterprise Linux   | 15.6                        | Arm64, x64            |
-| Ubuntu                 | 25.04, 24.10, 24.04, 22.04  | Arm32, Arm64, x64     |
+
 
 #### 国产系统
 
