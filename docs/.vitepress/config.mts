@@ -144,6 +144,7 @@ export default defineConfig({
                 text: '操作',
                 collapsed: true,
                 items: [
+                    { text: '操作流程', link: '/operate/FlowChart/index' },
                     {
                         text: '操作介绍',
                         collapsed: true,
