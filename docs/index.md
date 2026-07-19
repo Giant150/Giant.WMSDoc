@@ -7,13 +7,13 @@ hero:
   text: "中南智能仓储管理系统"
   tagline: 支持多仓库、多货主的多库融合，支持多种场景与业态，上下游系统无缝集成
   actions:
-    - theme: brand
+    - theme: alt
       text: 电脑端
       link: https://10.88.19.3:8061
     - theme: alt
       text: 移动端
       link: https://10.88.19.3:8062
-    - theme: alt
+    - theme: brand
       text: 快速开始
       link: /about/quickstart
 

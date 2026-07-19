@@ -46,8 +46,8 @@ ZEQP WMS是由中南智能研发的新一代仓库管理系统。支持多仓库
 |SQL Server|SQL Server 2012及更高版本|微软|
 |Oracle|Oracle DB 11.2 及更高版本|甲骨文|
 |MySql|MySql 5及更高版本|甲骨文|
-|SQLite|*开发中*|开源|
-|DM|*开发中(DM8+)*|达梦数据|
+|SQLite|SQLite 3+|开源|
+|DM|DM8+|达梦数据|
 
 ## 系统架构
 
