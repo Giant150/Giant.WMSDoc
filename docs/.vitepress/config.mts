@@ -144,6 +144,7 @@ export default defineConfig({
                 text: '操作',
                 collapsed: true,
                 items: [
+                    { text: '操作流程', link: '/operate/FlowChart/index' },
                     {
                         text: '操作介绍',
                         collapsed: true,
@@ -176,7 +177,9 @@ export default defineConfig({
                     { text: '根证书安装', link: '/deploy/installCert' },
                     { text: 'PDA初始化', link: '/deploy/init-PDA' },
                     { text: 'WMS系统打印', link: '/operate/Print/index' },
-                    { text: '系统健康检查', link: '/deploy/HealthCheck/index' }
+                    { text: '系统健康检查', link: '/deploy/HealthCheck/index' },
+                    { text: '统信UOSV20适配测试报告', link: '/deploy/deployTxUos/index' },
+                    { text: '中科方德V50适配测试报告', link: '/deploy/deployZkfdNFS/index' }
                 ]
             },
             {
