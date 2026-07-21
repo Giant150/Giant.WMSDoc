@@ -121,7 +121,7 @@ export default defineConfig({
                             { text: '呆滞记录报表', link: '/feture/rpt/stagnation' },
                             { text: '空托盘统计报表', link: '/feture/rpt/emptyTray' },
                             { text: '指标汇总', link: '/feture/rpt/indicatorSum' },
-                            { text: '物料基础数据', link: '/feture/rpt/sku' },
+                            //{ text: '物料基础数据', link: '/feture/rpt/sku' },
                         ]
                     },
                     {
@@ -129,7 +129,7 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             { text: '组织架构', link: '/feture/sys/org' },
-                            { text: '用户组织', link: '/feture/sys/user' },
+                            { text: '用户管理', link: '/feture/sys/user' },
                             { text: '角色管理', link: '/feture/sys/role' },
                             { text: '菜单管理', link: '/feture/sys/menu' },
                             { text: '字典管理', link: '/feture/sys/enum' },
