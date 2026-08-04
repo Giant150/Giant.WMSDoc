@@ -33,7 +33,7 @@ export default defineConfig({
                 text: '功能',
                 collapsed: true,
                 items: [
-                    { text: '功能介绍', link: '/feture' },
+                    { text: 'Web功能介绍' },
                     {
                         text: '基础信息',
                         collapsed: true,
@@ -125,7 +125,7 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: '任务设置',
+                        text: '系统管理',
                         collapsed: true,
                         items: [
                             { text: '组织架构', link: '/feture/sys/org' },
@@ -136,6 +136,74 @@ export default defineConfig({
                             { text: '系统参数', link: '/feture/sys/config' },
                             { text: '编码规则', link: '/feture/sys/codeType' },
                             { text: '系统日志', link: '/feture/sys/log' }
+                        ]
+                    },
+                    { text: '移动端功能介绍' },
+                    {
+                        text: '功能',
+                        collapsed: true,
+                        items: [
+                            { text: 'P2P', link: '/feture/bas/whse' },
+                            { text: 'P2Z', link: '/feture/bas/storer' },
+                            { text: '空托出库', link: '/feture/bas/storer' },
+                            { text: '空托入库', link: '/feture/bas/storer' },
+                            { text: '空托绑定', link: '/feture/bas/storer' },
+                            { text: '收货', link: '/feture/bas/storer' },
+                            { text: '直收', link: '/feture/bas/storer' },
+                            { text: '上架', link: '/feture/bas/storer' },
+                            { text: '配货拣货', link: '/feture/bas/storer' },
+                            { text: '波次配货', link: '/feture/bas/storer' },
+                            { text: '拣货', link: '/feture/bas/storer' },
+                            { text: '直发', link: '/feture/bas/storer' },
+                            { text: '确认拣货', link: '/feture/bas/storer' },
+                            { text: '整托移库', link: '/feture/bas/storer' },
+                            { text: '托盘移库', link: '/feture/bas/storer' },
+                            { text: '库存移库', link: '/feture/bas/storer' },
+                            { text: '整托直发', link: '/feture/bas/storer' },
+                            { text: '手动补货', link: '/feture/bas/storer' },
+                            { text: '补货确认', link: '/feture/bas/storer' },
+                            { text: '质检确认', link: '/feture/bas/storer' },
+                            { text: '料架叫料', link: '/feture/bas/storer' },
+                            { text: '料架入库', link: '/feture/bas/storer' },
+                            { text: '盘点出库', link: '/feture/bas/storer' },
+                            { text: '盘点入库', link: '/feture/bas/storer' },
+                            { text: '盘点', link: '/feture/bas/storer' },
+                            { text: '条码登记', link: '/feture/bas/storer' },
+                            { text: '到货条码', link: '/feture/bas/storer' },
+                            { text: '直送上线', link: '/feture/bas/storer' },
+                        ]
+                    },
+                    {
+                        text: '数据',
+                        collapsed: true,
+                        items: [
+                            { text: '物料', link: '/feture/bas/whse' },
+                            { text: '库存', link: '/feture/bas/storer' },
+                            { text: '往来单位', link: '/feture/bas/storer' },
+                            { text: '托盘', link: '/feture/bas/storer' },
+                            { text: '库位', link: '/feture/bas/storer' },
+                            { text: '库存台账', link: '/feture/bas/storer' },
+                            { text: '批次', link: '/feture/bas/storer' },
+                            { text: '任务管理', link: '/feture/bas/storer' },
+                            { text: '发货管理', link: '/feture/bas/storer' },
+                            { text: '收货管理', link: '/feture/bas/storer' },
+                            { text: '质检结果', link: '/feture/bas/storer' },
+                            { text: '库位状态', link: '/feture/bas/storer' },
+                            { text: '配盘管理', link: '/feture/bas/storer' },
+                            { text: '配盘叫料', link: '/feture/bas/storer' },
+                            { text: '系统日志', link: '/feture/bas/storer' },
+                            { text: '双生移库', link: '/feture/bas/storer' },
+                        ]
+                    },
+                    {
+                        text: '报表',
+                        collapsed: true,
+                        items: [
+                            { text: '物料类型', link: '/feture/bas/whse' },
+                            { text: '货主库存', link: '/feture/bas/storer' },
+                            { text: '上架区域', link: '/feture/bas/storer' },
+                            { text: '区域库存', link: '/feture/bas/storer' },
+                            { text: '任务统计', link: '/feture/bas/storer' },
                         ]
                     },
                 ]
