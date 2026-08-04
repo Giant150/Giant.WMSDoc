@@ -246,8 +246,12 @@ export default defineConfig({
                     { text: 'PDA初始化', link: '/deploy/init-PDA' },
                     { text: 'WMS系统打印', link: '/operate/Print/index' },
                     { text: '系统健康检查', link: '/deploy/HealthCheck/index' },
-                    { text: '统信UOSV20适配测试报告', link: '/deploy/deployTxUos/index' },
-                    { text: '中科方德V50适配测试报告', link: '/deploy/deployZkfdNFS/index' }
+                    { text: 'LIP兼容性测试报告-统信UOSV20', link: '/deploy/deployTxUosLIP/index' },
+                    { text: 'WMS兼容性测试报告-统信UOSV20', link: '/deploy/deployTxUosWMS/index' },
+                    { text: 'LIP兼容性测试报告-银河麒麟V10', link: '/deploy/deployYHQLLIP/index' },
+                    { text: 'WMS兼容性测试报告-银河麒麟V10', link: '/deploy/deployYHQLWMS/index' },
+                    { text: 'LIP兼容性测试报告-中科方德V50', link: '/deploy/deployZkFDLIP/index' },
+                    { text: 'WMS兼容性测试报告-中科方德V50', link: '/deploy/deployZKFDWMS/index' },
                 ]
             },
             {
