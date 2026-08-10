@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: alt
       text: 电脑端
-      link: https://wmsweb.liuju.cc
+      link: http://wms.liuju.cc:8051
     - theme: alt
       text: 移动端
-      link: https://wmsrf.liuju.cc
+      link: http://wms.liuju.cc:8052
     - theme: brand
       text: 快速开始
       link: /about/quickstart
