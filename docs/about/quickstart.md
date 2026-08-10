@@ -21,15 +21,6 @@ const projectData = ref(data)
 |WMS API|<a :href="projectData.wms.production.api" target="_blank">Production</a>|<a :href="projectData.wms.staging.api" target="_blank">Staging</a>|<a :href="projectData.wms.test.api" target="_blank">Test</a>|WMS系统服务接口|
 
 
-|名称|正式环境|说明|
-|---|---|---|
-|WMS电脑端|<a :href="'https://'+projectData.webHost+':'+projectData.wmsWebPort" target="_blank">https://{{projectData.webHost}}:{{projectData.wmsWebPort}}</a>|WMS系统电脑端|
-|WMS移动端|<a :href="'https://'+projectData.webHost+':'+projectData.wmsRFPort" target="_blank">https://{{projectData.webHost}}:{{projectData.wmsRFPort}}</a>|WMS系统移动端|
-|WMS看板|<a :href="'https://'+projectData.webHost+':'+projectData.wmsKanban" target="_blank">https://{{projectData.webHost}}:{{projectData.wmsKanban}}</a>|WMS系统看板|
-|WMS API|<a :href="'https://'+projectData.webHost+':'+projectData.wmsAPIPort+'/Swagger'" target="_blank">https://{{projectData.webHost}}:{{projectData.wmsAPIPort}}/Swagger</a>|WMS系统服务接口|
-|WDI数据集成|<a :href="'https://'+projectData.webHost+':'+projectData.wmsDIPort+'/Swagger'" target="_blank">https://{{projectData.webHost}}:{{projectData.wmsDIPort}}/Swagger</a>|WMS系统数据集成平台|
-|WMS文档|<a :href="'https://'+projectData.webHost+':'+projectData.wmsDocPort" target="_blank">https://{{projectData.webHost}}:{{projectData.wmsDocPort}}</a>|WMS系统文档|
-
 ## LIP系统访问
 
 |名称|地址|说明|
