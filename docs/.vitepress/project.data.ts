@@ -43,12 +43,12 @@ export default {
                 test: {
                     ip: '10.76.99.18',
                     host: 'WIN-T5OS7IUPK9S',
-                    api: 'https://10.76.99.18:8060/Swagger',
-                    web: 'https://10.76.99.18:8061',
-                    rf: 'https://10.76.99.18:8062',
-                    di: 'https://10.76.99.18:8063/Swagger',
+                    api: 'https://wmsapi.liuju.cc:8055/Swagger',
+                    web: 'https://wmsweb.liuju.cc',
+                    rf: 'https://wmsrf.liuju.cc',
+                    di: 'https://wmsdi.liuju.cc:8058/Swagger',
                     kanban: '',
-                    doc: 'https://10.76.99.18'
+                    doc: 'https://wmsdoc.liuju.cc'
                 }
             },
             lip: {
