@@ -187,7 +187,7 @@ export default defineConfig({
                             { text: '发货管理', link: '/feture/rf/data/order' },
                             { text: '收货管理', link: '/feture/rf/data/receipt' },
                             { text: '质检结果', link: '/feture/rf/data/qualitylist' },
-                            { text: '库位状态', link: '/feture/rf/data/locstatus' },
+                            { text: '库位状态', link: '/feture/rf/action/locstatus' },
                             { text: '配盘管理', link: '/feture/rf/data/Stgplagelist' },
                             { text: '配盘叫料', link: '/feture/rf/data/Stgplatereqship' },
                             { text: '系统日志', link: '/feture/rf/data/syslog' },
