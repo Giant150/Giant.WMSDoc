@@ -170,6 +170,8 @@ export default defineConfig({
                             { text: '盘点入库', link: '/feture/rf/action/checktrayin' },
                             { text: '盘点', link: '/feture/rf/action/checkbyorderlist' },
                             { text: '条码登记', link: '/feture/rf/action/serialregister' },
+                            { text: '到货条码', link: '/feture/rf/action/serialasnlist' },
+                            { text: '发货条码', link: '/feture/rf/action/serialshiplist' },
                         ]
                     },
                     {
