@@ -6,4 +6,10 @@
 
 ![](01.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;重发：点击重发，可重新下发任务
+
+&nbsp;&nbsp;&nbsp;&nbsp;完成：点击完成，任务更改为已完成状态
+
+&nbsp;&nbsp;&nbsp;&nbsp;取消：点击取消，可取消执行任务
+
 ![](02.png)

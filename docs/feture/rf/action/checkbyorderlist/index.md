@@ -6,4 +6,6 @@
 
 ![](01.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;根据实际情况输入盘点数量
+
 ![](02.png)
